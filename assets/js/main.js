@@ -75,7 +75,7 @@ function showMe(){
         default:
             document.getElementById("someTxt").style.display="block"
     
-            document.getElementById("someTxt").innerHTML="Please give a month. eg.Jan Feb..."
+            document.getElementById("someTxt").innerHTML="Please give a month. eg. Jan Feb..."
             document.getElementById("horoscope").style.display="none"
             break;
     }
