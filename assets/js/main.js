@@ -82,4 +82,4 @@ function showMe(){
 
 
 
-  // document.getElementById("output").innerHTML="Have you been feeling a bit bored with your life lately? Well, good news! Today offers you a great…";
+  
