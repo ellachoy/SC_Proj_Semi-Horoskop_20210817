@@ -12,8 +12,13 @@ fieldset {
 fieldset div {
   margin-bottom: 5%;
 }
-#Btn {
+#inputText {
   width: 45%;
+  padding: 2%;
+}
+#Btn {
+  padding: 2%;
+  width: 50%;
   background-color: skyblue;
 }
 h3 {
