@@ -4,6 +4,7 @@ function showMe(){
     let text=document.getElementById("inputText").value 
     document.getElementById("horoscope").style.display="block"
     document.getElementById("someTxt").style.display="none"
+    // id=alert('please give a month: January ->Jan, February ->Feb...')
 
      let months= text;
     switch (months) {
@@ -73,7 +74,8 @@ function showMe(){
 
         default:
             document.getElementById("someTxt").style.display="block"
-            document.getElementById("someTxt").innerHTML="Please give a month"
+    
+            document.getElementById("someTxt").innerHTML="Please give a month. eg.Jan Feb..."
             document.getElementById("horoscope").style.display="none"
             break;
     }
